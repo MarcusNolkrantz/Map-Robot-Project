@@ -1,0 +1,29 @@
+# python
+__pycache__
+node_modules
+*.out
+*.pyc
+
+# vscode
+.vscode
+
+# atmel studio
+[Dd]ebug/
+[Rr]elease/
+*.o
+*.d
+*.eep
+*.elf
+*.hex
+*.map
+*.srec
+*.atsuo
+
+# c/c++
+bin/
+*.a
+**/tests/*_test
+**/simulation/*_test
+**/simulation/*_data
+#venv
+venv/

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "steering", "steering.cproj", "{A0D583F5-F987-4B14-8D2A-A95564CA45BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0D583F5-F987-4B14-8D2A-A95564CA45BB}.Debug|AVR.ActiveCfg = Debug|AVR
+		{A0D583F5-F987-4B14-8D2A-A95564CA45BB}.Debug|AVR.Build.0 = Debug|AVR
+		{A0D583F5-F987-4B14-8D2A-A95564CA45BB}.Release|AVR.ActiveCfg = Release|AVR
+		{A0D583F5-F987-4B14-8D2A-A95564CA45BB}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

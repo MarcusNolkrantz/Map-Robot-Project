@@ -1,0 +1,58 @@
+# -*- coding: utf-8 -*-
+
+"""
+Constants module.
+file: const.py
+authors: juska933, osklu414
+
+Constants module. Various constants used throughout the client program.
+"""
+
+import os
+
+
+# screen constants
+SCREEN_FRAMERATE = 30
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+SCREEN_SIZE = (SCREEN_WIDTH, SCREEN_HEIGHT)
+SCREEN_FILL = (0, 0, 0)
+
+# rendering constants
+MAP_POSITION = (0, 0)
+MAP_WIDTH = SCREEN_HEIGHT
+MAP_HEIGHT = SCREEN_HEIGHT
+MAP_SIZE = (MAP_WIDTH, MAP_HEIGHT)
+MAP_ROWS = MAP_COLS = 2 * 10_000 // 400 + 1 
+
+TILE_WIDTH = MAP_WIDTH // MAP_COLS
+TILE_HEIGHT = MAP_HEIGHT // MAP_ROWS
+TILE_SIZE = (TILE_WIDTH, TILE_HEIGHT)
+TILE_MM = 400
+
+ROBOT_ORIGIN = (MAP_ROWS // 2, MAP_COLS // 2)
+ROBOT_SIZE = TILE_SIZE
+
+INTERFACE_POSITION = (MAP_WIDTH, 0)
+INTERFACE_WIDTH = SCREEN_WIDTH - MAP_WIDTH
+INTERFACE_HEIGHT = SCREEN_HEIGHT
+INTERFACE_SIZE = (INTERFACE_WIDTH, INTERFACE_HEIGHT)
+
+INTERFACE_PADDING = 20
+INTERFACE_COLOR = (255, 255, 255)
+INTERFACE_FONT_NAME = "Comic Sans MS"
+INTERFACE_FONT_SIZE = 30
+
+
+
+# socket setting
+LOCALHOST = "127.0.0.1"
+OSKARHOST = "192.168.43.125"
+FELIXHOST = "172.20.10.6"
+HOST = OSKARHOST  # or IP address
+
+PORT = 8000
+OFFLINE = False
+
+# resource settings
+RESOURCES_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "resources")
